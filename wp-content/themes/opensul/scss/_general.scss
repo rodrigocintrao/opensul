@@ -1,0 +1,86 @@
+body {
+    font-family: $open-sans-regular;
+    height: 2000px;
+}
+
+.social-media {
+    margin: 0;
+    a {
+        color: $write-color;
+        &:hover {
+            color: $primary-color;
+        }
+    }
+}
+
+.hr-xs {
+    margin-top: $number;
+    margin-bottom: $number;
+}
+
+.hr-sm {
+    margin-top: $number * 2;
+    margin-bottom: $number * 2;
+}
+
+.hr-md {
+    margin-top: $number * 3;
+    margin-bottom: $number * 3;
+}
+
+.hr-lg {
+    margin-top: $number * 4;
+    margin-bottom: $number * 4;
+}
+
+.no-border {
+    border: none!important;
+}
+
+.v-align-middle {
+    vertical-align: middle;
+}
+
+.d-inline-block {
+    display: inline-block!important;
+}
+
+.m-tb-xs {
+    margin-top: $number!important;
+    margin-bottom: $number!important;
+}
+
+.m-tb-sm {
+    margin-top: $number * 2!important;
+    margin-bottom: $number * 2!important;
+}
+
+.m-tb-md {
+    margin-top: $number * 3!important;
+    margin-bottom: $number * 3!important;
+}
+
+.m-tb-lg {
+    margin-top: $number * 4!important;
+    margin-bottom: $number * 4!important;
+}
+
+.p-tb-xs {
+    padding-top: $number!important;
+    padding-bottom: $number!important;
+}
+
+.p-tb-sm {
+    padding-top: $number * 2!important;
+    padding-bottom: $number * 2!important;
+}
+
+.p-tb-md {
+    padding-top: $number * 3!important;
+    padding-bottom: $number * 3!important;
+}
+
+.p-tb-lg {
+    padding-top: $number * 4!important;
+    padding-bottom: $number * 4!important;
+}

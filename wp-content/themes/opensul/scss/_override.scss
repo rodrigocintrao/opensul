@@ -1,0 +1,29 @@
+.navbar-default .navbar-brand {
+    color: $primary-color;
+    &:hover, &:focus {
+        color: $primary-color;
+    }
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background: $primary-color;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    .icon-bar {
+        background: $second-color;
+    }
+}
+
+.btn-primary {
+    background-color: $primary-color;
+    border-color: $primary-color-dark;
+    &:hover {
+        background-color: $primary-color-dark;
+        border-color: $primary-color-darker;
+    }
+    &:focus, &:focus:active {
+        background-color: $primary-color-dark;
+        border-color: $primary-color-darker;
+    }
+}

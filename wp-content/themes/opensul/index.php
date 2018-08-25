@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <script src="<?php bloginfo('template_url'); ?>/js/jquery.min.js"></script>
-    <script src="<?php bloginfo('template_url'); ?>/js/bootstrap.min.js"></script>
+    <title>Open Sul</title>
     <link href="<?php bloginfo('template_url'); ?>/css/bootstrap.css" rel="stylesheet">
     <link href="<?php bloginfo('template_url'); ?>/css/fontawesome.css" rel="stylesheet">
+    <link href="<?php bloginfo('template_url'); ?>/css/slick.css" rel="stylesheet">
     <link href="<?php bloginfo('template_url'); ?>/style.css" rel="stylesheet">
+    <script src="<?php bloginfo('template_url'); ?>/js/jquery.min.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/js/bootstrap.min.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/js/slick.min.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/js/main.js"></script>
 </head>
 <body>
-    <section class="header">
-        <div class="header-nav">
+    <header class="header">
+        <section class="header-nav">
             <div class="container">
                 <div class="row vertical-align">
                     <div class="col-xs-12 col-sm-9">
@@ -60,11 +63,11 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="header-logo p-tb-sm">
+        </section>
+        <section class="header-logo p-tb-md">
             <div class="container">
                 <div class="row vertical-align">
-                    <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="col-xs-12 col-sm-6 col-md-4 hidden-xs">
                         <img src="<?php bloginfo('template_url'); ?>/img/logo-opensul.png" class="img-responsive center-block">
                     </div>
                     <div class="col-md-1 hidden-xs hidden-sm"></div>
@@ -98,7 +101,13 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+        <section class="header-banner">
+            <div class="slider">
+                <div><img src="<?php bloginfo('template_url'); ?>/img/banner.jpg" alt="banner" class="full-width"></div>
+                <div><img src="<?php bloginfo('template_url'); ?>/img/banner.jpg" alt="banner" class="full-width"></div>
+            </div>
+        </section>
+    </header>
 </body>
 </html>

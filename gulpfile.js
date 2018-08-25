@@ -10,24 +10,6 @@ var gulp            = require('gulp'),
 gulp.task('clean-css', function () {
     return del('wp-content/themes/opensul/style.css');
 });
-
-//COPY JS
-gulp.task('copy-js', function() {
-    return gulp.src(['node_modules/bootstrap-sass/assets/javascripts/bootstrap.min.js', 'node_modules/jquery/dist/jquery.min.js']).pipe(gulp.dest('wp-content/themes/opensul/js'));
-});
-
-//COPY FONTS
-gulp.task('copy-fonts', ['copy-fonts-bootstrap','copy-fonts-fontawesome']);
-
-//COPY FONTS BOOTSTRAP
-gulp.task('copy-fonts-bootstrap', function() {
-    return gulp.src('node_modules/bootstrap-sass/assets/fonts/bootstrap/*').pipe(gulp.dest('wp-content/themes/opensul/fonts'));
-});
-
-//COPY FONTS FONTAWESOME
-gulp.task('copy-fonts-fontawesome', function() {
-    return gulp.src('node_modules/@fortawesome/fontawesome-free/webfonts/*').pipe(gulp.dest('wp-content/themes/opensul/webfonts'));
-});
     
 // SASS:
 gulp.task('sass', ['clean-css'], function() {
@@ -39,16 +21,26 @@ gulp.task('sass', ['clean-css'], function() {
         .pipe(gulp.dest('wp-content/themes/opensul/'));
   });
 
+//COPY SCSS
+gulp.task('copy-scss', ['bootstrap-scss','fontawesome-scss', 'slick-scss']);
+
 //SASS BOOTSTRAP
-gulp.task('bootstrap', function() {
+gulp.task('bootstrap-scss', function() {
     return gulp.src('wp-content/themes/opensul/scss/bootstrap.scss')
         .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
         .pipe(gulp.dest('wp-content/themes/opensul/css'));
   });
 
 //SASS FONTAWESOME
-gulp.task('fontawesome', function() {
+gulp.task('fontawesome-scss', function() {
     return gulp.src('wp-content/themes/opensul/scss/fontawesome.scss')
+        .pipe(sass().on('error', sass.logError))
+        .pipe(gulp.dest('wp-content/themes/opensul/css'));
+  });
+
+//SASS SLICK
+gulp.task('slick-scss', function() {
+    return gulp.src('wp-content/themes/opensul/scss/slick.scss')
         .pipe(sass().on('error', sass.logError))
         .pipe(gulp.dest('wp-content/themes/opensul/css'));
   });
@@ -70,7 +62,7 @@ gulp.task('serve', function () {
 });
 
 // INIT: 
-gulp.task('default', ['sass', 'bootstrap', 'fontawesome', 'watch', 'copy-fonts', 'copy-js', 'serve']);
+gulp.task('default', ['sass', 'copy-scss', 'watch', 'serve']);
 
 
   

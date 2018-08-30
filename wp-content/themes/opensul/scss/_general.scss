@@ -1,12 +1,19 @@
 body {
     font-family: $open-sans-regular;
-    height: 2000px;
+    font-size: 16px;
+}
+
+a {
+    color: $primary-color;
+    &:hover, &:focus {
+        color: $primary-color-dark;
+    }
 }
 
 .social-media {
     margin: 0;
     a {
-        color: $write-color;
+        color: $white-color;
         &:hover {
             color: $primary-color;
         }
@@ -46,45 +53,93 @@ body {
 }
 
 .m-tb-xs {
-    margin-top: $number!important;
-    margin-bottom: $number!important;
-}
-
-.m-tb-sm {
     margin-top: $number * 2!important;
     margin-bottom: $number * 2!important;
 }
 
+.m-tb-sm {
+    margin-top: $number * 5!important;
+    margin-bottom: $number * 5!important;
+}
+
 .m-tb-md {
-    margin-top: $number * 3!important;
-    margin-bottom: $number * 3!important;
+    margin-top: $number * 8!important;
+    margin-bottom: $number * 8!important;
 }
 
 .m-tb-lg {
-    margin-top: $number * 4!important;
-    margin-bottom: $number * 4!important;
+    margin-top: $number * 11!important;
+    margin-bottom: $number * 11!important;
+}
+
+.no-margin-top {
+    margin-top: 0!important;
 }
 
 .p-tb-xs {
-    padding-top: $number!important;
-    padding-bottom: $number!important;
-}
-
-.p-tb-sm {
     padding-top: $number * 2!important;
     padding-bottom: $number * 2!important;
 }
 
+.p-tb-sm {
+    padding-top: $number * 5!important;
+    padding-bottom: $number * 5!important;
+}
+
 .p-tb-md {
-    padding-top: $number * 3!important;
-    padding-bottom: $number * 3!important;
+    padding-top: $number * 8!important;
+    padding-bottom: $number * 8!important;
 }
 
 .p-tb-lg {
-    padding-top: $number * 4!important;
-    padding-bottom: $number * 4!important;
+    padding-top: $number * 11!important;
+    padding-bottom: $number * 11!important;
+}
+
+.p-xs {
+    padding: $number * 2!important;
+}
+
+.p-sm {
+    padding: $number * 5!important;
+}
+
+.p-md {
+    padding: $number * 8!important;
+}
+
+.p-lg {
+    padding: $number * 11!important;
 }
 
 .full-width {
     width: 100%;
+}
+
+.border {
+    border-width: 1px;
+    border-style: solid;
+}
+
+.border-sm {
+    border-width: $number;
+    border-style: solid;
+}
+
+.border-md {
+    border-width: $number * 2;
+    border-style: solid;
+}
+
+.border-lg {
+    border-width: $number * 3;
+    border-style: solid;
+}
+
+.border-grey-dark {
+    border-color: $grey-color-dark;
+}
+
+.relative {
+    position: relative;
 }

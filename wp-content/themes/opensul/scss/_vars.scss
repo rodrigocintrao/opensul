@@ -1,7 +1,8 @@
 $dark-color: #23282d;
-$write-color: #fff;
+$white-color: #fff;
 $grey-color: #f0f0f2;
-$greylight-color: lighten($grey-color,5%);
+$grey-color-dark: darken($grey-color,5%);
+$grey-color-darker: darken($grey-color,10%);
 
 $primary-color: #ebc22c;
 $primary-color-light: lighten($primary-color,15%);

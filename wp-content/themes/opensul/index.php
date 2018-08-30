@@ -64,7 +64,7 @@
                 </div>
             </div>
         </section>
-        <section class="header-logo p-tb-md">
+        <section class="header-logo p-tb-sm">
             <div class="container">
                 <div class="row vertical-align">
                     <div class="col-xs-12 col-sm-6 col-md-4 hidden-xs">
@@ -75,15 +75,15 @@
                         <ul class="list-unstyled">
                             <li class="m-tb-xs">
                                 <i class="fas fa-phone d-inline-block v-align-middle"></i>    
-                                <span class="d-inline-block">(51) 87677 8787<span>
+                                <span class="d-inline-block v-align-middle">(51) 87677 8787<span>
                             </li>
                             <li class="m-tb-xs">
                                 <i class="fas fa-map-marker-alt d-inline-block v-align-middle"></i> 
-                                <span class="d-inline-block">Rua A, 4657 Bairro - POA</span>
+                                <span class="d-inline-block v-align-middle">Rua A, 4657 Bairro - POA</span>
                             </li>
                             <li class="m-tb-xs">
                                 <i class="far fa-envelope-open d-inline-block v-align-middle"></i>    
-                                <span class="d-inline-block">opensul@opensul.net.br</span>
+                                <span class="d-inline-block v-align-middle">opensul@opensul.net.br</span>
                             </li>
                         </ul>
                     </div>
@@ -109,5 +109,163 @@
             </div>
         </section>
     </header>
+    <main>
+        <section class="about-us p-tb-lg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img src="<?php bloginfo('template_url'); ?>/img/img.jpg" alt="img" class="full-width img-thumbnail">
+                    </div>
+                    <div class="col-sm-8">
+                        <h2>Sobre Nós</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi distinctio porro cupiditate culpa ab quisquam ut aperiam quam sequi pariatur a, eveniet neque consectetur assumenda enim! Quae obcaecati quia laborum.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi distinctio porro cupiditate culpa ab quisquam ut aperiam quam sequi pariatur a, eveniet neque consectetur assumenda enim! Quae obcaecati quia laborum.</p>
+                        <a href="#" class="btn btn-primary btn-lg text-uppercase">leia mais</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="news-events p-tb-lg">
+            <div class="container">
+                <h2 class="no-margin-top">Notícias e Eventos</h2>
+                <div class="row">
+                    <article class="col-sm-6 col-md-3">
+                        <div class="p-sm border-md border-grey-dark">
+                            <img src="<?php bloginfo('template_url'); ?>/img/img.jpg" alt="img" class="full-width img-thumbnail">
+                            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quod mollitia, harum, id facere amet dolore beatae, nostrum dolor quia voluptates vero praesentium perspiciatis dicta labore hic omnis quibusdam magni.</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-primary btn-lg text-uppercase">leia mais</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-sm-6 col-md-3">
+                        <div class="p-sm border-md border-grey-dark">
+                            <img src="<?php bloginfo('template_url'); ?>/img/img.jpg" alt="img" class="full-width img-thumbnail">
+                            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quod mollitia, harum, id facere amet dolore beatae, nostrum dolor quia voluptates vero praesentium perspiciatis dicta labore hic omnis quibusdam magni.</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-primary btn-lg text-uppercase">leia mais</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-sm-6 col-md-3">
+                        <div class="p-sm border-md border-grey-dark">
+                            <img src="<?php bloginfo('template_url'); ?>/img/img.jpg" alt="img" class="full-width img-thumbnail">
+                            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quod mollitia, harum, id facere amet dolore beatae, nostrum dolor quia voluptates vero praesentium perspiciatis dicta labore hic omnis quibusdam magni.</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-primary btn-lg text-uppercase">leia mais</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-sm-6 col-md-3">
+                        <div class="p-sm border-md border-grey-dark">
+                            <img src="<?php bloginfo('template_url'); ?>/img/img.jpg" alt="img" class="full-width img-thumbnail">
+                            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quod mollitia, harum, id facere amet dolore beatae, nostrum dolor quia voluptates vero praesentium perspiciatis dicta labore hic omnis quibusdam magni.</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-primary btn-lg text-uppercase">leia mais</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>  
+        </section>
+        <section class="recent-projects p-tb-lg">
+            <div class="container">
+                <h2 class="no-margin-top">Projetos Recentes</h2>
+                <div class="row">
+                    <article class="col-sm-6 col-md-3">
+                        <a href="#">
+                            <div class="relative">
+                            <img src="<?php bloginfo('template_url'); ?>/img/img.jpg" alt="img" class="full-width img-thumbnail">
+                            <h3 class="p-sm">Lorem ipsum dolor sit amet consectetur.</h3>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="col-sm-6 col-md-3">
+                        <a href="#">
+                            <div class="relative">
+                            <img src="<?php bloginfo('template_url'); ?>/img/img.jpg" alt="img" class="full-width img-thumbnail">
+                            <h3 class="p-sm">Lorem ipsum dolor sit amet consectetur.</h3>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="col-sm-6 col-md-3">
+                        <a href="#">
+                            <div class="relative">
+                            <img src="<?php bloginfo('template_url'); ?>/img/img.jpg" alt="img" class="full-width img-thumbnail">
+                            <h3 class="p-sm">Lorem ipsum dolor sit amet consectetur.</h3>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="col-sm-6 col-md-3">
+                        <a href="#">
+                            <div class="relative">
+                            <img src="<?php bloginfo('template_url'); ?>/img/img.jpg" alt="img" class="full-width img-thumbnail">
+                            <h3 class="p-sm">Lorem ipsum dolor sit amet consectetur.</h3>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+        </section>
+        <section class="represented p-tb-lg">
+            <div class="container">
+                <div class="slider-represented">
+                    <div>
+                        <a href="#">
+                            <img src="<?php bloginfo('template_url'); ?>/img/brambilla.png" alt="represented" class="img-thumbnail">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="<?php bloginfo('template_url'); ?>/img/brambilla.png" alt="represented" class="img-thumbnail">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="<?php bloginfo('template_url'); ?>/img/brambilla.png" alt="represented" class="img-thumbnail">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="<?php bloginfo('template_url'); ?>/img/brambilla.png" alt="represented" class="img-thumbnail">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="<?php bloginfo('template_url'); ?>/img/brambilla.png" alt="represented" class="img-thumbnail">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="<?php bloginfo('template_url'); ?>/img/brambilla.png" alt="represented" class="img-thumbnail">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="<?php bloginfo('template_url'); ?>/img/brambilla.png" alt="represented" class="img-thumbnail">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="<?php bloginfo('template_url'); ?>/img/brambilla.png" alt="represented" class="img-thumbnail">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="<?php bloginfo('template_url'); ?>/img/brambilla.png" alt="represented" class="img-thumbnail">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="<?php bloginfo('template_url'); ?>/img/brambilla.png" alt="represented" class="img-thumbnail">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

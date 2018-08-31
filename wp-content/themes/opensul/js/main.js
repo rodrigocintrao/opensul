@@ -1,4 +1,5 @@
 $(function(){
+
     $(".slider").slick();
 
     $(".slider-represented").slick({

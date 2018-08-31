@@ -5,8 +5,6 @@ var gulp            = require('gulp'),
     autoprefixer    = require('gulp-autoprefixer'),
     imagemin        = require('gulp-imagemin'),
     changed         = require('gulp-changed'),
-    gutil           = require('gulp-util'),
-    ftp             = require('vinyl-ftp'),
     browserSync     = require('browser-sync').create(),
     reload          = browserSync.reload;
 
@@ -77,56 +75,5 @@ gulp.task('serve', function () {
 
 // INIT: 
 gulp.task('default', ['images', 'sass', 'copy-scss', 'watch', 'serve']);
-
-
-
-
-// ======================================================================================//
-// DEPLOY
-
-var user = 'opensul';
-var password = 'aefgz541a85e4';
-var host = 'ftp.opensul.net.br';
-var port = 21;
-
-/*
-* Arquivos que serão ou não enviados ao servidor,
-* para não enviar um arquivo ou pasta se deve inserir o ! (exclamação) antes do arquivo ou da pasta
-*/
-var localFilesGlob = ['./**/*',
-                        '!node_modules'
-                    ];
-
-/*
-* Pasta do servidor para onde os arquivos serão enviados
-*/
-var remoteFolder = '/hm.opensul.net.br'
-
-/*
-* Função para conexão
-*/
-function getFtpConnection()
-{
-    return ftp.create({
-        host: host,
-        port: port,
-        user: user,
-        password: password,
-        parallel: 5,
-        log: gutil.log
-    });
-}
-
-/*
-* Tarefa que enviará os arquivos
-*/
-gulp.task('ftp-deploy', function()
-{
-    var conn = getFtpConnection();
-    return gulp.src(localFilesGlob, {base: '.', buffer: false})
-        .pipe(conn.newer(remoteFolder)) // only upload newer files
-        .pipe(conn.dest(remoteFolder));
-});
-
 
   

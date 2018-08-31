@@ -16,6 +16,7 @@
     <script src="<?php bloginfo('template_url'); ?>/js/wow.min.js"></script>
     <script src="<?php bloginfo('template_url'); ?>/js/functions.js"></script>
     <script src="<?php bloginfo('template_url'); ?>/js/main.js"></script>
+    <!-- Start of HubSpot Embed Code --> <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/4862319.js"></script> <!-- End of HubSpot Embed Code -->
     <?php wp_head(); ?>
 </head>
 <body>

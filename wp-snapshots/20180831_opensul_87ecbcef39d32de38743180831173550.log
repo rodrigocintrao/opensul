@@ -1,0 +1,81 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 31 de August de 2018 17:36
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.2.42
+WORDPRESS:	4.9.8
+PHP INFO:	7.1.11 | SAPI: apache2handler
+SERVER:		Apache/2.4.29 (Win32) OpenSSL/1.0.2l PHP/7.1.11 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 2048M (128M default) 
+MEMORY STACK: 6MB 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported 
+FILTERED: [] 
+RESPONSE: Ran from C:/xampp/mysql/bin/mysqldump.exe 
+TABLES: total:24 | filtered:0 | create:24 
+SQL CREATED: 20180831_opensul_87ecbcef39d32de38743180831173550_database.sql 
+SQL FILE SIZE: 543.98KB (557032) 
+SQL FILE TIME: 2018-08-31 17:36:23 
+SQL RUNTIME: 3.30 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  C:/xampp/htdocs/opensul 
+ARCHIVE FILE: 20180831_opensul_87ecbcef39d32de38743180831173550_archive.zip 
+FILTERS: *ON* 
+DIRS:
+	/full_path/exclude_path1
+	/full_path/node_modules 
+FILES:
+	not set 
+EXTS:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	124.82MB 
+STATS:	Dirs 2,772 | Files 18,639 
+SQL ADDED: 20180831_opensul_87ecbcef39d32de38743180831173550_database.sql 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 21411
+    [filename] => C:\xampp\htdocs\opensul\wp-snapshots\tmp\20180831_opensul_87ecbcef39d32de38743180831173550_archive.zip
+    [comment] => 
+)
+ 
+COMPRESSION RESULT: '1' 
+COMPRESSED SIZE: 55.29MB 
+ARCHIVE RUNTIME: 241.56 sec. 
+MEMORY STACK: 10MB 
+
+******************************************************************************** 
+MAKE INSTALLER: 
+******************************************************************************** 
+Build Start 
+Build Finished 
+Preping for use 
+PACK SIZE:  
+Template parsed with new data 
+Complete [C:/xampp/htdocs/opensul/wp-snapshots/tmp/20180831_opensul_87ecbcef39d32de38743180831173550_installer.php] 
+Added to archive 
+
+******************************************************************************** 
+INTEGRITY CHECKS: 
+******************************************************************************** 
+SQL File: 543.98KB 
+Installer File: 472.48KB 
+Archive File: 55.29MB  
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 249.89 sec.
+PEAK PHP MEMORY USED: 10MB
+DONE PROCESSING => 20180831_opensul 31 de August de 2018 17:40
+ 

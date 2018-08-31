@@ -10,16 +10,6 @@ a {
     }
 }
 
-.social-media {
-    margin: 0;
-    a {
-        color: $white-color;
-        &:hover {
-            color: $primary-color;
-        }
-    }
-}
-
 .hr-xs {
     margin-top: $number;
     margin-bottom: $number;
@@ -100,6 +90,22 @@ a {
     padding-bottom: $number * 11!important;
 }
 
+.p-b-xs {
+    padding-bottom: $number * 2!important;
+}
+
+.p-b-sm {
+    padding-bottom: $number * 5!important;
+}
+
+.p-b-md {
+    padding-bottom: $number * 8!important;
+}
+
+.p-b-lg {
+    padding-bottom: $number * 11!important;
+}
+
 .p-xs {
     padding: $number * 2!important;
 }
@@ -146,4 +152,14 @@ a {
 
 .relative {
     position: relative;
+}
+
+.text-center-sm {
+    @media (max-width: 767px) {
+        text-align: center!important;
+    }
+}
+
+.no-resize {
+    resize: none!important;
 }

@@ -22,14 +22,19 @@
     "del": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^5.0.0",
+    "gulp-changed": "^3.2.0",
+    "gulp-imagemin": "^4.1.0",
     "gulp-sass": "^4.0.1",
     "gulp-sourcemaps": "^2.6.4",
-    "run-sequence": "^2.2.1"
+    "gulp-util": "^3.0.8",
+    "run-sequence": "^2.2.1",
+    "vinyl-ftp": "^0.6.1"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.2.0",
     "bootstrap-sass": "^3.3.7",
     "jquery": "^3.3.1",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "wowjs": "^1.1.3"
   }
 }

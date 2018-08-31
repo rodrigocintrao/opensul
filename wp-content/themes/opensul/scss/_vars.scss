@@ -11,10 +11,10 @@ $primary-color-lighter: lighten($primary-color,30%);
 $primary-color-darker: darken($primary-color,30%);
 
 $second-color: #891d1a;
-$second-color-light: lighten($primary-color,15%);
-$second-color-dark: darken($primary-color,15%);
-$second-color-lighter: lighten($primary-color,30%);
-$second-color-darker: darken($primary-color,30%);
+$second-color-light: lighten($second-color,10%);
+$second-color-dark: darken($second-color,10%);
+$second-color-lighter: lighten($second-color,20%);
+$second-color-darker: darken($second-color,20%);
 
 $number: 3px;
 

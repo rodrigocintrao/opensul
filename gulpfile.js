@@ -25,7 +25,7 @@ gulp.task('images', function() {
     
 // SASS:
 gulp.task('sass', ['clean-css'], function() {
-    return gulp.src('wp-content/themes/opensul/scss/**/*.scss')
+    return gulp.src('wp-content/themes/opensul/scss/style.scss')
         .pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))
         .pipe(autoprefixer({browsers: 'last 3 versions'}))

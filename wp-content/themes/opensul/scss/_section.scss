@@ -25,6 +25,8 @@
     .navbar-default .navbar-nav>li>a {
         color: $white-color;
         font-size: 14px;
+        padding-left: $number * 3;
+        padding-right: $number * 3;
         &:hover {
             color: $primary-color;
         }

@@ -1,8 +1,8 @@
 <footer id="footer" class="footer wow fadeIn" data-wow-duration=".5s" data-wow-delay=".5s">
         <section class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.616517266903!2d-51.220774885281614!3d-30.047857781881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95197859d2e8b319%3A0xc4238500125bed13!2sAv.+Ipiranga%2C+1000+-+Menino+Deus%2C+Porto+Alegre+-+RS%2C+90160-090!5e0!3m2!1spt-BR!2sbr!4v1535675236599" frameborder="0" style="border:0" allowfullscreen></iframe>	
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.3640865513407!2d-51.16603818528139!3d-30.055096581878498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951977e1800c96cb%3A0xbd4d7c842bdf200c!2sAv.+Ipiranga%2C+7464+-+Jardim+Bot%C3%A2nico%2C+Porto+Alegre+-+RS%2C+91530-000!5e0!3m2!1spt-BR!2sbr!4v1536620254644" frameborder="0" style="border:0" allowfullscreen></iframe>	
         </section>
-        <section class="contact">
+        <section class="contact" data-speed="15">
             <div class="container">
                 <div class="row p-tb-lg">
                     <div class="col-sm-4 text-center">
@@ -38,18 +38,8 @@
                         <h4>Redes Sociais</h4>
                         <ul class="list-inline social-media">
                             <li>
-                                <a href="#" target="_blank">
+                                <a href="https://www.facebook.com/OPENSUL/" target="_blank">
                                     <i class="fab fa-facebook-square fa-2x"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" target="_blank">
-                                    <i class="fab fa-twitter fa-2x"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" target="_blank">
-                                <i class="fab fa-google-plus fa-2x"></i>
                                 </a>
                             </li>
                         </ul>
@@ -70,8 +60,28 @@
                             </div>
                             <div class="col-sm-4">
                                 <div class="form-group">
-                                    <label for="assunto">Assunto:</label>
-                                    <input type="text" class="form-control" placeholder="Digite o assunto" id="assunto">
+                                    <label for="assunto">Telefone:</label>
+                                    <input type="text" class="form-control" placeholder="Digite seu telefone" id="assunto">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="form-group">
+                                    <label for="name">Cidade:</label>
+                                    <input type="text" class="form-control" placeholder="Digite sua cidade" id="name">
+                                </div>
+                            </div>
+                            <div class="col-sm-2">
+                                <div class="form-group">
+                                    <label for="email">Estado:</label>
+                                    <input type="email" class="form-control" placeholder="Digite seu estado" id="email">
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="assunto">Produto:</label>
+                                    <input type="text" class="form-control" placeholder="Digite o produto" id="assunto">
                                 </div>
                             </div>
                         </div>

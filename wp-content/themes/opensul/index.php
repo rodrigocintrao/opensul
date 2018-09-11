@@ -6,7 +6,7 @@
                     <?php query_posts('page_id=9');?>
                     <?php if(have_posts()):while(have_posts()):the_post();?>
                     <div class="col-sm-4">
-                        <?php the_post_thumbnail('thumb-quemsomos', array('class' => 'full-width img-thumbnail'));?>
+                        <?php the_post_thumbnail('thumb-general', array('class' => 'full-width img-thumbnail'));?>
                     </div>
                     <div class="col-sm-8">
                         <h2><?php the_title();?></h2>
@@ -22,48 +22,7 @@
         <section class="news-events p-tb-lg wow fadeIn" data-wow-duration=".5s" data-wow-delay=".5s">
             <div class="container">
                 <h2 class="no-margin-top">Notícias e Eventos</h2>
-                <div class="row">
-                    <article class="col-sm-6 col-md-3">
-                        <div class="p-sm border-md border-grey-dark">
-                            <img src="<?php bloginfo('template_url'); ?>/img/img.jpg" alt="img" class="full-width img-thumbnail">
-                            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quod mollitia, harum, id facere amet dolore beatae, nostrum dolor quia voluptates vero praesentium perspiciatis dicta labore hic omnis quibusdam magni.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn btn-primary text-uppercase">leia mais</a>
-                            </div>
-                        </div>
-                    </article>
-                    <article class="col-sm-6 col-md-3">
-                        <div class="p-sm border-md border-grey-dark">
-                            <img src="<?php bloginfo('template_url'); ?>/img/img.jpg" alt="img" class="full-width img-thumbnail">
-                            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quod mollitia, harum, id facere amet dolore beatae, nostrum dolor quia voluptates vero praesentium perspiciatis dicta labore hic omnis quibusdam magni.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn btn-primary text-uppercase">leia mais</a>
-                            </div>
-                        </div>
-                    </article>
-                    <article class="col-sm-6 col-md-3">
-                        <div class="p-sm border-md border-grey-dark">
-                            <img src="<?php bloginfo('template_url'); ?>/img/img.jpg" alt="img" class="full-width img-thumbnail">
-                            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quod mollitia, harum, id facere amet dolore beatae, nostrum dolor quia voluptates vero praesentium perspiciatis dicta labore hic omnis quibusdam magni.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn btn-primary text-uppercase">leia mais</a>
-                            </div>
-                        </div>
-                    </article>
-                    <article class="col-sm-6 col-md-3">
-                        <div class="p-sm border-md border-grey-dark">
-                            <img src="<?php bloginfo('template_url'); ?>/img/img.jpg" alt="img" class="full-width img-thumbnail">
-                            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quod mollitia, harum, id facere amet dolore beatae, nostrum dolor quia voluptates vero praesentium perspiciatis dicta labore hic omnis quibusdam magni.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn btn-primary text-uppercase">leia mais</a>
-                            </div>
-                        </div>
-                    </article>
-                </div>
+                <?php get_template_part('noticiasNth1'); ?>
             </div>  
         </section>
         <section class="recent-projects p-tb-lg wow fadeIn" data-wow-duration=".5s" data-wow-delay=".5s">

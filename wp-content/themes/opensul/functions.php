@@ -4,7 +4,7 @@
 add_theme_support('post-thumbnails');
 
 //remimensionar imagem destacada
-add_image_size('thumb-quemsomos', 800, 600, true);
+add_image_size('thumb-general', 800, 600, true);
 
 // menu personalizado
 add_theme_support('nav-menus');

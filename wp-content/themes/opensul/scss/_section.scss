@@ -83,10 +83,6 @@
                 margin-bottom: 20px;
             }
         }
-
-        h3 {
-            height: 78px;
-        }
     }
 }
 
@@ -132,7 +128,7 @@
 }
 
 .map {
-
+    line-height: 0;
     iframe {
         width: 100%;
         height: 400px;
@@ -149,6 +145,15 @@
 }
 
 .contact {
+    position: relative;
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(img/bg-contato.jpg);
+    color: $white-color;
+    text-shadow: 0 0 3px $dark-color;
+
     .contact-box {
         display: inline-block;
         position: relative;

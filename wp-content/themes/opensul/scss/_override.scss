@@ -1,5 +1,10 @@
 //BOOTSTRAP
 
+label {
+    font-weight: normal;
+    font-family: $open-sans-bold;
+}
+
 .navbar-default .navbar-brand {
     color: $primary-color;
     &:hover, &:focus {
@@ -62,4 +67,9 @@
 
 .ngg-gallery-thumbnail img {
     width: 150px!important;
+}
+
+//contact-form-7
+span.wpcf7-not-valid-tip {
+    color: #f92c28!important;
 }

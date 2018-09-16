@@ -45,57 +45,8 @@
                         </ul>
                     </div>
                     <div class="col-sm-7">
-                        <div class="row">
-                            <div class="col-sm-4">
-                                <div class="form-group">
-                                    <label for="name">Nome:</label>
-                                    <input type="text" class="form-control" placeholder="Digite seu nome" id="name">
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="form-group">
-                                    <label for="email">E-mail:</label>
-                                    <input type="email" class="form-control" placeholder="Digite seu e-mail" id="email">
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="form-group">
-                                    <label for="assunto">Telefone:</label>
-                                    <input type="text" class="form-control" placeholder="Digite seu telefone" id="assunto">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-4">
-                                <div class="form-group">
-                                    <label for="name">Cidade:</label>
-                                    <input type="text" class="form-control" placeholder="Digite sua cidade" id="name">
-                                </div>
-                            </div>
-                            <div class="col-sm-2">
-                                <div class="form-group">
-                                    <label for="email">Estado:</label>
-                                    <input type="email" class="form-control" placeholder="Digite seu estado" id="email">
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <label for="assunto">Produto:</label>
-                                    <input type="text" class="form-control" placeholder="Digite o produto" id="assunto">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <div class="form-group">
-                                    <label for="mensagem">Mensagem:</label>
-                                    <textarea class="form-control no-resize" rows="4" id="mensagem" placeholder="Escreva sua mensagem"></textarea>
-                                </div>
-                                <div class="form-group">
-                                    <button class="btn btn-primary text-uppercase">Enviar mensagem</button>
-                                </div>
-                            </div>
-                        </div>
+                        <p class="small">* Campos obrigatórios</p>
+                        <?php echo do_shortcode( '[contact-form-7 id="121" title="Contato"]' ); ?>
                     </div>
                 </div>
             </div>

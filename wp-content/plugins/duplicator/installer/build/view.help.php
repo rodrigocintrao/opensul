@@ -49,6 +49,9 @@ HELP FORM -->
 			</td>
 		</tr>
 	</table>
+	<br/>
+	Note: Even though the installer has a password protection feature, it should only be used for the short term while the installer is being used. All installer files should and
+	must be removed after the install is completed.  Files should not to be left on the server for any long duration of time to prevent any security related issues.
 </div>
 
 <!-- ============================================
@@ -535,14 +538,15 @@ STEP 4
 
 	<b>Final Security Cleanup</b><br/>
 	When completed with the installation please delete all installation files.  Leaving these files on your server can impose a security risk!   You can remove
-	all the security files by logging into your WordPress admin and following the remove notification links.   Be sure these files/directories are removed.  Optionally
-	it is also recommended to remove the archive.zip/daf file.
+	all the security files by logging into your WordPress admin and following the remove notification links.   Be sure all these files are removed.  Optionally
+	it is also recommended to remove the archive.zip file.
 	<ul>
-		<li>dup-installer</li>
 		<li>installer.php</li>
+		<li>installer-data.sql</li>
 		<li>installer-backup.php</li>
-		<li>installer-bootlog.txt</li>
-		<li>archive.zip/daf</li>
+		<li>installer-log.txt</li>
+		<li>database.sql</li>
+		<li>[a-hash-code]_archive.zip <small>(optional)</small></li>
 	</ul>
 	<br/><br/>
 

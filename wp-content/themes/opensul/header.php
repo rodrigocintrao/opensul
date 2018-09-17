@@ -65,24 +65,7 @@
                     </div>
                     <div class="col-md-1 hidden-xs hidden-sm"></div>
                     <div class="col-md-3 hidden-xs hidden-sm">
-                        <ul class="list-unstyled">
-                            <li class="m-tb-xs">
-                                <i class="fab fa-whatsapp d-inline-block v-align-middle"></i>    
-                                <span class="d-inline-block v-align-middle">(51) 99104 8171 - Pimentel<span>
-                            </li>
-                            <li class="m-tb-xs">
-                                <i class="fas fa-phone d-inline-block v-align-middle"></i>    
-                                <span class="d-inline-block v-align-middle">a definir<span>
-                            </li>
-                            <li class="m-tb-xs">
-                                <i class="fas fa-map-marker-alt"></i> 
-                                <span class="">Av. Ipiranga, 7464 loja 20 - Rossi Bussines Park, Porto Alegre-RS</span>
-                            </li>
-                            <li class="m-tb-xs">
-                                <i class="far fa-envelope-open d-inline-block v-align-middle"></i>    
-                                <span class="d-inline-block v-align-middle">contato@opensul.net.br</span>
-                            </li>
-                        </ul>
+                        <?php get_template_part('headerListContact'); ?>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-4">
                         <?php get_search_form(); ?>
@@ -94,8 +77,9 @@
         </section>
         <section class="header-banner">
             <div class="slider">
-                <div><img src="<?php bloginfo('template_url'); ?>/img/banner.jpg" alt="banner" class="full-width"></div>
-                <div><img src="<?php bloginfo('template_url'); ?>/img/banner.jpg" alt="banner" class="full-width"></div>
+                <div><img src="<?php bloginfo('template_url'); ?>/img/banner1.jpg" alt="banner1" class="full-width"></div>
+                <div><img src="<?php bloginfo('template_url'); ?>/img/banner2.jpg" alt="banner2" class="full-width"></div>
+                <div><img src="<?php bloginfo('template_url'); ?>/img/banner3.jpg" alt="banner3" class="full-width"></div>
             </div>
         </section>
     </header>

@@ -7,23 +7,23 @@
                 <div class="row p-tb-lg">
                     <div class="col-sm-4 text-center">
                         <div class="contact-box">
-                            <i class="fas fa-phone fa-3x"></i>
+                            <i class="fas fa-phone fa-3x text-primary"></i>
                             <p class="no-margin">Telefone Fixo:</p>
-                            <h3 class="no-margin">(51) 3049 9898</h3>
+                            <h3 class="no-margin">A definir</h3>
                         </div>
                     </div>
                     <hr class="hr-md visible-xs">
                     <div class="col-sm-4 text-center">
                         <div class="contact-box">
-                            <i class="fas fa-mobile-alt fa-3x"></i>
+                            <i class="fas fa-mobile-alt fa-3x text-primary"></i>
                             <p class="no-margin">Celular/Whatsapp:</p>
-                            <h3 class="no-margin">(51) 98988 9898</h3>
+                            <h3 class="no-margin">(51) 99104 8171 - Pimentel</h3>
                         </div>
                     </div>
                     <hr class="hr-md visible-xs">
                     <div class="col-sm-4 text-center">
                         <div class="contact-box">
-                            <i class="fab fa-skype fa-3x"></i>
+                            <i class="fab fa-skype fa-3x text-primary"></i>
                             <p class="no-margin">Skype:</p>
                             <h3 class="no-margin">opensul</h3>
                         </div>

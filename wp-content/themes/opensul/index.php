@@ -63,7 +63,7 @@
                     </article>
                 </div>
         </section>
-        <section class="represented p-tb-lg wow fadeIn" data-wow-duration=".5s" data-wow-delay=".5s">
+        <!-- <section class="represented p-tb-lg wow fadeIn" data-wow-duration=".5s" data-wow-delay=".5s">
             <div class="container">
                 <div class="slider-represented">
                     <div>
@@ -118,6 +118,6 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
     </main>
 <?php get_footer(); ?>

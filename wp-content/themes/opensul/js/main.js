@@ -12,6 +12,9 @@ var App = function() {
     new WOW().init();
     anchorSlide();
     sliders();
+    mostraOcultaMenu();
+    posicionaMenu();
+    
   }
 
 }();

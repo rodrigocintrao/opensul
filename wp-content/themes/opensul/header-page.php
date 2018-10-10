@@ -24,7 +24,7 @@
         <section class="header-nav">
             <div class="container">
                 <div class="row vertical-align">
-                    <div class="col-xs-12 col-sm-9">
+                    <div class="col-xs-12 col-sm-9 no-padding-mobile">
                         <nav class="navbar navbar-default">
                             <div class="navbar-header">
                                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-menu" aria-expanded="false">

@@ -49,22 +49,49 @@ function posicionaMenu() {
   
   var leftValue = (windowsWidth - subMenuWidth)/2;
 
-  subMenu.css('left',leftValue);
+  if(windowsWidth >= 1000){
+    subMenu.css('left',leftValue);
+  } else {
+    subMenu.css('left',0);
+  }
 }
 
 function mostraOcultaMenu() {
+  var windowsWidth = $(window).outerWidth();
   var subMenus = $('.sub-menu');
   var subMenu = $(subMenus[0]);
 
   var itemMenuPai = $('.nav>li');
 
-  subMenu.hide();
+  if(windowsWidth >= 767) {
 
-  itemMenuPai.on('mouseover', function(){
-    $(this).children('.sub-menu').stop().fadeIn();
-  });
+    itemMenuPai.on('mouseover', function(){
+      $(this).children('.sub-menu').stop().fadeIn(300);
+    });
+  
+    itemMenuPai.on('mouseout', function(){
+      $(this).children('.sub-menu').stop().fadeOut(300);
+    });
+  } else {
 
-  itemMenuPai.on('mouseout', function(){
-    $(this).children('.sub-menu').stop().fadeOut();
+    itemMenuPai.off('mouseover');
+  
+    itemMenuPai.off('mouseout');
+
+    var linkPrevSubMenu = subMenu.prev('a');
+    $(linkPrevSubMenu).on('click', function(e){
+        e.preventDefault();
+      });
+
+    itemMenuPai.on('click', function(){
+      $(this).children('.sub-menu').toggle();
+    });
+  }
+}
+
+function executaMenuResize() {
+  $(window).resize(function(){
+    posicionaMenu();
+    mostraOcultaMenu();
   });
 }

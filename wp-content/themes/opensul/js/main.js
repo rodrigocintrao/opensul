@@ -1,5 +1,9 @@
 $(function(){
 
+  mostraOcultaMenu();
+  posicionaMenu();
+  executaMenuResize();
+  
   App.init();
 
 });
@@ -9,11 +13,11 @@ var App = function() {
   return { init: init };
 
   function init() {
-    new WOW().init();
+
     anchorSlide();
     sliders();
-    mostraOcultaMenu();
-    posicionaMenu();
+
+    new WOW().init();
     
   }
 

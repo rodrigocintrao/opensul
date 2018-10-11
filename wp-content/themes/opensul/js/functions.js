@@ -83,8 +83,8 @@ function mostraOcultaMenu() {
         e.preventDefault();
       });
 
-    itemMenuPai.on('click', function(){
-      $(this).children('.sub-menu').toggle();
+    $(itemMenuPai).children('a').on('click', function(){
+      $(this).next('.sub-menu').toggle();
     });
   }
 }

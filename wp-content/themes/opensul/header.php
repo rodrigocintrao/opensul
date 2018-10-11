@@ -34,7 +34,7 @@
                                     <span class="icon-bar"></span>
                                 </button>
                                 <a class="navbar-brand hidden-sm hidden-md hidden-lg" href="<?php bloginfo('url'); ?>">
-                                    <img src="<?php bloginfo('template_url'); ?>/img/logo-opensul.png" class="img-responsive">
+                                    <img src="<?php bloginfo('template_url'); ?>/img/logo-opensul-menu.png" class="img-responsive">
                                 </a>
                             </div>
 

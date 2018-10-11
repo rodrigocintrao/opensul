@@ -13,6 +13,6 @@
     </li>
     <li class="m-tb-xs">
         <i class="far fa-envelope-open d-inline-block v-align-middle text-primary"></i>    
-        <span class="d-inline-block v-align-middle">contato@opensul.net.br</span>
+        <span class="d-inline-block v-align-middle">contato@opensul.com.br</span>
     </li>
 </ul>

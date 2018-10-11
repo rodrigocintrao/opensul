@@ -1,6 +1,5 @@
 .header {
-    background-color: $second-color;
-    color: $grey-color;
+    background-color: $grey-color;
     .social-media {
         margin: 0;
         a {
@@ -13,7 +12,7 @@
 
     .header-list-contact {
         a {
-            color: $white-color;
+            color: $dark-color;
         }
     }
 }

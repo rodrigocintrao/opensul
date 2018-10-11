@@ -3,22 +3,7 @@ $(function(){
   mostraOcultaMenu();
   posicionaMenu();
   executaMenuResize();
-  
-  App.init();
-
+  anchorSlide();
+  sliders();
+  new WOW().init();
 });
-
-var App = function() {
-
-  return { init: init };
-
-  function init() {
-
-    anchorSlide();
-    sliders();
-
-    new WOW().init();
-    
-  }
-
-}();

@@ -89,9 +89,30 @@ function mostraOcultaMenu() {
   }
 }
 
+function fixarMenu() {
+
+  if($(window).outerWidth() >= 768){
+    var corpoSite = $('body');
+    var alturaMenu = $('.header-nav').outerHeight();
+    var $meuMenu = $('.header-nav'); // guardar o elemento na memoria para melhorar performance
+    $(document).on('scroll', function () {
+        if (alturaMenu <= $(window).scrollTop()) {
+            $meuMenu.addClass('fixar-menu');
+            corpoSite.css('padding-top',alturaMenu);
+        } else {
+            $meuMenu.removeClass('fixar-menu');
+            corpoSite.css('padding-top',0);
+        }
+    });
+  } else {
+    $(document).off('scroll');
+  }
+}
+
 function executaMenuResize() {
   $(window).resize(function(){
     posicionaMenu();
     mostraOcultaMenu();
+    fixarMenu();
   });
 }

@@ -9,7 +9,7 @@
                         <div class="contact-box">
                             <i class="fas fa-phone fa-3x text-primary"></i>
                             <p class="no-margin">Telefone Fixo:</p>
-                            <h3 class="no-margin">A definir</h3>
+                            <h3 class="no-margin">(51) 3269 7835</h3>
                         </div>
                     </div>
                     <hr class="hr-md visible-xs">

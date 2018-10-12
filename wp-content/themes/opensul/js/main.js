@@ -2,8 +2,9 @@ $(function(){
 
   mostraOcultaMenu();
   posicionaMenu();
-  executaMenuResize();
   anchorSlide();
   sliders();
+  fixarMenu();
+  executaMenuResize();
   new WOW().init();
 });

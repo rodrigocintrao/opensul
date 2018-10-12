@@ -5,7 +5,7 @@
     </li>
     <li class="m-tb-xs">
         <i class="fas fa-phone d-inline-block v-align-middle text-primary"></i>    
-        <span class="d-inline-block v-align-middle">a definir<span>
+        <span class="d-inline-block v-align-middle">(51) 3269 7835<span>
     </li>
     <li class="m-tb-xs">
         <i class="fas fa-map-marker-alt text-primary"></i> 

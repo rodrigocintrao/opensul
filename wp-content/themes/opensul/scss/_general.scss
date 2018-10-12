@@ -47,6 +47,10 @@ a {
     display: inline-block!important;
 }
 
+.d-block {
+    display: block!important;
+}
+
 .m-tb-xs {
     margin-top: $number * 2!important;
     margin-bottom: $number * 2!important;
@@ -175,4 +179,12 @@ a {
 
 .no-padding-mobile {
     padding: 0!important;
+}
+
+.fixar-menu {
+    position: fixed;
+    width: 100%; 
+    top: 0;
+    left: 0;
+    z-index: 10;
 }

@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Esquadrias em PVC
+Template Name: Artefatos de Concreto
 */
 ?>
 
@@ -33,7 +33,7 @@ Template Name: Esquadrias em PVC
                         array(
                             'taxonomy' => 'produtos_categorias',
                             'field' => 'slug',
-                            'terms' => 'esquadrias-em-pvc', 
+                            'terms' => 'artefatos-de-concreto', 
                         )
                     )
                 );
@@ -47,14 +47,14 @@ Template Name: Esquadrias em PVC
                 <?php if ( $the_query->have_posts() ) : ?>
 
                 <div class="row loop-products">
-
-                    <div class="col-sm-8 col-sm-offset-2">
+                
+                    <div class="col-sm-6 col-sm-offset-3">
 
                         <div class="row">
 
                             <!-- the loop -->
                             <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-                                <div class="col-xs-6 col-sm-4">
+                                <div class="col-xs-6 col-sm-6">
                                     <a title="<?php the_title(); ?>" class="relative d-block" href="<?php the_permalink(); ?>">
                                         <?php the_post_thumbnail('thumb-produtos', array('class' => 'full-width img-thumbnail'));?>
                                         <div class="box-hover">

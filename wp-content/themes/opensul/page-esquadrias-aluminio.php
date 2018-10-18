@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Esquadrias em PVC
+Template Name: Esquadrias em Alumínio
 */
 ?>
 
@@ -33,7 +33,7 @@ Template Name: Esquadrias em PVC
                         array(
                             'taxonomy' => 'produtos_categorias',
                             'field' => 'slug',
-                            'terms' => 'esquadrias-em-pvc', 
+                            'terms' => 'esquadrias-em-aluminio', 
                         )
                     )
                 );
@@ -48,36 +48,28 @@ Template Name: Esquadrias em PVC
 
                 <div class="row loop-products">
 
-                    <div class="col-sm-8 col-sm-offset-2">
-
-                        <div class="row">
-
-                            <!-- the loop -->
-                            <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-                                <div class="col-xs-6 col-sm-4">
-                                    <a title="<?php the_title(); ?>" class="relative d-block" href="<?php the_permalink(); ?>">
-                                        <?php the_post_thumbnail('thumb-produtos', array('class' => 'full-width img-thumbnail'));?>
-                                        <div class="box-hover">
-                                            <div class="box-hover-border">
-                                                <div class="box-hover-content">
-                                                    <div>
-                                                        <i class="fas fa-search-plus fa-2x"></i>
-                                                    </div>
-                                                    <div class="text-uppercase small mais-detalhes">mais detalhes</div>
-                                                </div>
+                    <!-- the loop -->
+                    <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+                        <div class="col-xs-6 col-sm-3">
+                            <a title="<?php the_title(); ?>" class="relative d-block" href="<?php the_permalink(); ?>">
+                                <?php the_post_thumbnail('thumb-produtos', array('class' => 'full-width img-thumbnail'));?>
+                                <div class="box-hover">
+                                    <div class="box-hover-border">
+                                        <div class="box-hover-content">
+                                            <div>
+                                                <i class="fas fa-search-plus fa-2x"></i>
                                             </div>
+                                            <div class="text-uppercase small mais-detalhes">mais detalhes</div>
                                         </div>
-                                    </a>
-                                    <h2 class="text-center"><?php the_title(); ?></h2>
+                                    </div>
                                 </div>
-                            <?php endwhile; ?>
-                            <!-- end of the loop -->
-
-                            <?php wp_reset_postdata(); ?>
-
+                            </a>
+                            <h2 class="text-center"><?php the_title(); ?></h2>
                         </div>
+                    <?php endwhile; ?>
+                    <!-- end of the loop -->
 
-                    </div>
+                    <?php wp_reset_postdata(); ?>
 
                 </div>
 

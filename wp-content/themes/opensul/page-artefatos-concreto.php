@@ -46,6 +46,8 @@ Template Name: Artefatos de Concreto
                 
                 <?php if ( $the_query->have_posts() ) : ?>
 
+                <hr>
+
                 <div class="row loop-products">
                 
                     <div class="col-sm-6 col-sm-offset-3">

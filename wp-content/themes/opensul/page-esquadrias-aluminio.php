@@ -46,6 +46,8 @@ Template Name: Esquadrias em Alumínio
                 
                 <?php if ( $the_query->have_posts() ) : ?>
 
+                <hr>
+
                 <div class="row loop-products">
 
                     <!-- the loop -->

@@ -46,6 +46,8 @@ Template Name: Esquadrias em PVC
                 
                 <?php if ( $the_query->have_posts() ) : ?>
 
+                <hr>
+
                 <div class="row loop-products">
 
                     <div class="col-sm-8 col-sm-offset-2">

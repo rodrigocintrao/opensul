@@ -1,42 +1,17 @@
 <div class="row">
+    <?php query_posts('category_name=noticias&showposts=4');?>
+    <?php if(have_posts()):while(have_posts()):the_post();?>
     <article class="col-sm-6 col-md-3">
         <div class="p-sm border-md border-grey-dark">
-            <img src="<?php bloginfo('template_url'); ?>/img/img.jpg" alt="img" class="full-width img-thumbnail">
-            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quod mollitia, harum, id facere amet dolore beatae, nostrum dolor quia voluptates vero praesentium perspiciatis dicta labore hic omnis quibusdam magni.</p>
+            <?php the_post_thumbnail('thumb-general', array('class' => 'full-width img-thumbnail'));?>
+            <h3><?php the_title();?></h3>
+            <p><?php echo excerpt('25'); ?></p>
             <div class="text-center">
-                <a href="#" class="btn btn-primary text-uppercase">leia mais</a>
+                <a href="<?php the_permalink(); ?>" class="btn btn-primary text-uppercase">leia mais</a>
             </div>
         </div>
     </article>
-    <article class="col-sm-6 col-md-3">
-        <div class="p-sm border-md border-grey-dark">
-            <img src="<?php bloginfo('template_url'); ?>/img/img.jpg" alt="img" class="full-width img-thumbnail">
-            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quod mollitia, harum, id facere amet dolore beatae, nostrum dolor quia voluptates vero praesentium perspiciatis dicta labore hic omnis quibusdam magni.</p>
-            <div class="text-center">
-                <a href="#" class="btn btn-primary text-uppercase">leia mais</a>
-            </div>
-        </div>
-    </article>
-    <article class="col-sm-6 col-md-3">
-        <div class="p-sm border-md border-grey-dark">
-            <img src="<?php bloginfo('template_url'); ?>/img/img.jpg" alt="img" class="full-width img-thumbnail">
-            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quod mollitia, harum, id facere amet dolore beatae, nostrum dolor quia voluptates vero praesentium perspiciatis dicta labore hic omnis quibusdam magni.</p>
-            <div class="text-center">
-                <a href="#" class="btn btn-primary text-uppercase">leia mais</a>
-            </div>
-        </div>
-    </article>
-    <article class="col-sm-6 col-md-3">
-        <div class="p-sm border-md border-grey-dark">
-            <img src="<?php bloginfo('template_url'); ?>/img/img.jpg" alt="img" class="full-width img-thumbnail">
-            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quod mollitia, harum, id facere amet dolore beatae, nostrum dolor quia voluptates vero praesentium perspiciatis dicta labore hic omnis quibusdam magni.</p>
-            <div class="text-center">
-                <a href="#" class="btn btn-primary text-uppercase">leia mais</a>
-            </div>
-        </div>
-    </article>
+    <?php endwhile;  else:?>
+    <?php endif;?>
+    <?php wp_reset_query(); ?>
 </div>

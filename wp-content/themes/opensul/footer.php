@@ -1,7 +1,4 @@
 <footer id="footer" class="footer wow fadeIn" data-wow-duration=".5s" data-wow-delay=".5s">
-        <section class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.3640865513407!2d-51.16603818528139!3d-30.055096581878498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951977e1800c96cb%3A0xbd4d7c842bdf200c!2sAv.+Ipiranga%2C+7464+-+Jardim+Bot%C3%A2nico%2C+Porto+Alegre+-+RS%2C+91530-000!5e0!3m2!1spt-BR!2sbr!4v1536620254644" frameborder="0" style="border:0" allowfullscreen></iframe>	
-        </section>
         <section class="contact" data-speed="15">
             <div class="container">
                 <div class="row p-tb-lg">
@@ -9,7 +6,7 @@
                         <div class="contact-box">
                             <i class="fas fa-phone fa-3x text-primary"></i>
                             <p class="no-margin">Telefone Fixo:</p>
-                            <h3 class="no-margin">(51) 3269 7835</h3>
+                            <h3 class="no-margin">(51) 3069 7835</h3>
                         </div>
                     </div>
                     <hr class="hr-md visible-xs">
@@ -43,6 +40,11 @@
                                 </a>
                             </li>
                         </ul>
+                        <p><a href="https://goo.gl/maps/aWgXmPZNn2C2" target="_blank">
+                        <strong>Av. Ipiranga, 7464 loja 20<br>Rossi Bussines Park, Porto Alegre-RS</strong></a></p>
+                        <div class="map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.3640865513407!2d-51.16603818528139!3d-30.055096581878498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951977e1800c96cb%3A0xbd4d7c842bdf200c!2sAv.+Ipiranga%2C+7464+-+Jardim+Bot%C3%A2nico%2C+Porto+Alegre+-+RS%2C+91530-000!5e0!3m2!1spt-BR!2sbr!4v1536620254644" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
                     </div>
                     <div class="col-sm-7">
                         <p class="small">* Campos obrigatórios</p>
@@ -53,7 +55,7 @@
         </section>
         <section class="copy p-tb-sm">
             <div class="container">
-                <p class="text-center small no-margin">Open Sul &copy <?php echo date('Y'); ?> - Todos os direitos reservados.</p>
+                <p class="text-center small no-margin">OPENSUL &copy <?php echo date('Y'); ?> - Todos os direitos reservados.</p>
             </div>
         </section>
     </footer>

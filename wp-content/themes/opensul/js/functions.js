@@ -66,11 +66,11 @@ function mostraOcultaMenu() {
   if(windowsWidth >= 767) {
 
     itemMenuPai.on('mouseover', function(){
-      $(this).children('.sub-menu').stop().fadeIn(300);
+      $(this).children('.sub-menu').stop().fadeIn(200);
     });
   
     itemMenuPai.on('mouseout', function(){
-      $(this).children('.sub-menu').stop().fadeOut(300);
+      $(this).children('.sub-menu').stop().fadeOut(200);
     });
   } else {
 

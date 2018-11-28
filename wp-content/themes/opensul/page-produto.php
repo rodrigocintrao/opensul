@@ -16,6 +16,8 @@ Template Name: Produto
                 <?php endif;?>
                 <?php wp_reset_query(); ?>
 
+                <hr>
+
                 <h2>Solicite um Orçamento</h2>
                 <?php echo do_shortcode( '[contact-form-7 id="124" title="Orçamento"]' ); ?>
 

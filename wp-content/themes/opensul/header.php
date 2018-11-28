@@ -64,10 +64,10 @@
                         </a>
                     </div>
                     <div class="col-md-1 hidden-xs hidden-sm"></div>
-                    <div class="col-md-3 hidden-xs hidden-sm">
+                    <div class="col-md-4 hidden-xs hidden-sm">
                         <?php get_template_part('headerListContact'); ?>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="col-xs-12 col-sm-6 col-md-3">
                         <?php get_search_form(); ?>
                         <hr class="no-border hr-sm">
                         <a href="<?php bloginfo('url'); ?>/orcamento" class="btn btn-primary btn-lg btn-block text-uppercase">solicite um orçamento</a>
@@ -77,9 +77,16 @@
         </section>
         <section class="header-banner">
             <div class="slider">
-                <div><img src="<?php bloginfo('template_url'); ?>/img/banner1.jpg" alt="banner1" class="full-width"></div>
-                <div><img src="<?php bloginfo('template_url'); ?>/img/banner2.jpg" alt="banner2" class="full-width"></div>
-                <div><img src="<?php bloginfo('template_url'); ?>/img/banner3.jpg" alt="banner3" class="full-width"></div>
+                <div>
+                    <a href="<?php bloginfo('url'); ?>/produtos/artefatos-de-concreto"><img src="<?php bloginfo('template_url'); ?>/img/banner1.jpg" alt="banner1" class="full-width"></a>
+                </div>
+                <div>
+                    <a href="<?php bloginfo('url'); ?>/produtos/esquadrias-em-pvc/">
+                    <img src="<?php bloginfo('template_url'); ?>/img/banner2.jpg" alt="banner2" class="full-width"></a>
+                </div>
+                <div>
+                    <a href="<?php bloginfo('url'); ?>/produtos/esquadrias-em-aluminio"><img src="<?php bloginfo('template_url'); ?>/img/banner3.jpg" alt="banner3" class="full-width"></a>
+                </div>
             </div>
         </section>
     </header>

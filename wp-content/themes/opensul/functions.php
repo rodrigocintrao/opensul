@@ -9,6 +9,9 @@ add_image_size('thumb-general', 800, 600, true);
 //remimensionar imagem destacada
 add_image_size('thumb-produtos', 600, 600, true);
 
+//remimensionar imagem destacada
+add_image_size('thumb-slide', 1773, 656, true);
+
 // menu personalizado
 add_theme_support('nav-menus');
 

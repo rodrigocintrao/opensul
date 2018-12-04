@@ -8,6 +8,13 @@ Template Name: Produto
     <main>
         <section class="content p-tb-lg wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
             <div class="container">
+
+                <?php
+                    if ( function_exists('yoast_breadcrumb') ) {
+                    yoast_breadcrumb( '<p id="breadcrumbs">','</p>' );
+                    }
+                ?>
+
                 <h1 id="title-product" class="no-margin-top"><?php the_title();?></h1>
 
                 <?php if(have_posts()):while(have_posts()):the_post();?>
